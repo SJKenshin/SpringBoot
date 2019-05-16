@@ -1,0 +1,32 @@
+2019-05-16 21:02:50.887  INFO 3124 --- [main] com.kenshin.WebApplication               : Starting WebApplication on HIAPAD-201607I with PID 3124 (D:\workspace\SpringDemo\target\classes started by Administrator in D:\workspace\SpringDemo)
+2019-05-16 21:02:50.897  INFO 3124 --- [main] com.kenshin.WebApplication               : No active profile set, falling back to default profiles: default
+2019-05-16 21:02:51.826  INFO 3124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 21:02:51.856  INFO 3124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-05-16 21:02:52.335  INFO 3124 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b3e5085a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 21:02:52.935  INFO 3124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2019-05-16 21:02:52.960  INFO 3124 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-16 21:02:52.960  INFO 3124 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-05-16 21:02:52.972  INFO 3124 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jre1.8.0_144\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files (x86)/Java/jre1.8.0_144/bin/client;C:/Program Files (x86)/Java/jre1.8.0_144/bin;C:/Program Files (x86)/Java/jre1.8.0_144/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin;D:\adt-bundle-windows\sdk\platform-tools;D:\db-derby-10.2.2.0-bin\bin;C:\Program Files (x86)\bin;D:\Program Files\bin;D:\jboss-as-distribution-6.1.0.Final\jboss-6.1.0.Final\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;D:\Program Files\Git\cmd;D:\apache-maven-3.3.9\bin;D:\eclipse-jee-oxygen-3a-win32\eclipse;;.]
+2019-05-16 21:02:53.155  INFO 3124 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-16 21:02:53.156 DEBUG 3124 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-05-16 21:02:53.156  INFO 3124 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2194 ms
+2019-05-16 21:02:53.203  INFO 3124 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-16 21:02:53.203  INFO 3124 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-16 21:02:53.203  INFO 3124 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2019-05-16 21:02:53.203  INFO 3124 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-16 21:02:53.203  INFO 3124 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'MyFilter' to urls: [/*]
+2019-05-16 21:02:53.204  INFO 3124 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteIpFilter' to: [/*]
+2019-05-16 21:02:53.204  INFO 3124 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-05-16 21:02:53.966  INFO 3124 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-16 21:02:54.341  INFO 3124 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-16 21:02:55.404  INFO 3124 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 21:02:55.535 DEBUG 3124 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-05-16 21:02:55.778  INFO 3124 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 21:02:55.794 DEBUG 3124 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1, ResponseBodyAdvice
+2019-05-16 21:02:55.840  WARN 3124 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 21:02:55.896 DEBUG 3124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2019-05-16 21:02:55.911 DEBUG 3124 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-05-16 21:02:55.925 DEBUG 3124 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-05-16 21:02:55.954  WARN 3124 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-16 21:02:56.193  INFO 3124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2019-05-16 21:02:56.197  INFO 3124 --- [main] com.kenshin.WebApplication               : Started WebApplication in 5.91 seconds (JVM running for 6.749)
